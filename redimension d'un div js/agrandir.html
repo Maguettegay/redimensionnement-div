@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercice3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e986d8d3e2.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" defer></script>
+	
+	
+</head>
+<body>
+	<p id="ggg"> je suis un texte qui s'aggrandit suite a un clique . Vas-y essaye!</p>
+	 
+<br>
+	
+<style>
+	.grandir{
+	font-size: 70px;
+   }
+	</style>
+   <script>
+	 
+   const grandir = document.querySelector("#ggg");
+  
+	grandir.addEventListener("click", ()=>{
+    grandir.classList.toggle('grandir');  
+	} )    
+   </script>
+</body>
+</html>
